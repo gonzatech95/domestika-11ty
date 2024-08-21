@@ -1,0 +1,40 @@
+├── dist/...
+├── node_modules/...
+├── src/
+│   ├── _includes/
+│   │   ├── components/
+│   │   │   ├── project.njk
+│   │   ├── layouts/
+│   │   │   ├── base.njk
+│   │   │   ├── general/
+│   │   │       ├── footer.njk
+│   │   │       ├── head.njk
+│   │   │       ├── header.njk
+│   ├── assets/
+│   │   ├── styles/
+│   │       ├── styles.css
+│   │       ├── base/
+│   │           ├── grid.css
+│   │           ├── grid-cols.css
+│   │           ├── reset.css
+│   │           ├── typography.css
+│   │       ├── layout/
+│   │           ├── content.css
+│   │           ├── footer.css
+│   │           ├── header.css
+│   │           ├── nav.css
+│   │       ├── libraries/
+│   │           ├── animate.css
+│   │       ├── variables/
+│   │           ├── v-grid.css
+│   │           ├── v-spacer.css
+│   │           ├── v-typography.css
+│   │           ├── v-zindex.css
+│   │   ├── scripts/
+│   │   ├── images/
+│   ├── contacto.njk
+│   ├── index.njk
+├── package.json
+├── package-lock.json
+
+

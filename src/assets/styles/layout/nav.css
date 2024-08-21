@@ -1,0 +1,18 @@
+.nav {
+  display: flex; /* Usar flexbox para los enlaces de navegación */
+  gap: 10px; /* Espacio entre los enlaces, ajusta según sea necesario */
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+  display: inline-block;
+}
+.nav a:hover {
+  opacity: 0.7;
+}
+
+.nav a.active {
+  border-bottom: 2px solid orange;
+}

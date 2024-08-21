@@ -1,0 +1,21 @@
+.header {
+  background-color: #161316;
+  padding-top: var(--spacer-m);
+  padding-bottom: var(--spacer-m);
+  position fixed;
+  border-bottom: 2px solid orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.logo h1{
+  margin: 0;
+  color: white;
+  white-space: nowrap;
+
+}
+.container {
+  display: flex; /* Usar flexbox para el contenedor de navegación */
+  align-items: center; /* Alinea verticalmente los elementos de la navegación */
+}
